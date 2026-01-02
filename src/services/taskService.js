@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5001/tasks";
+const API_URL = "https://task-master-backend-s3b2.onrender.com/tasks";
 
 export const getTasks = async () => {
   const res = await fetch(API_URL);
